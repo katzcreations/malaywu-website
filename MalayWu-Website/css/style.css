@@ -130,7 +130,6 @@ h1, h2, h3 {
 .hero-overlay {
   background: rgba(0, 0, 0, 0.3); /* semi-transparent dark overlay */
   backdrop-filter: blur(1.0px);
-  -webkit-backdrop-filter: blur(6px); /* for Safari */
   height: 100%;
   width: 100%;
   display: flex;
@@ -693,4 +692,5 @@ form textarea {
     opacity: 1;
     transform: translate(-50%, 0);
   }
+
 }

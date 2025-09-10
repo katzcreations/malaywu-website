@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet Malay | Real Estate Agent</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="light-page">
+
+  <!-- Header -->
+  <header class="light-header">
+    <div class="container nav-wrapper">
+      <!-- <img src="images/chlogo.png" alt="Malay Wu Logo" class="logo" /> -->
+      <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Quick links (phone, email, social) -->
+    <div class="header-quick-links">
+      <a href="tel:4042130202" title="Call Malay"><i class="fas fa-phone"></i></a>
+      <a href="mailto:MalayWu@gmail.com" title="Email Malay"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/malaywu" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.georgiamls.com/real-estate-agents/SURIVONGMALA" target="_blank" title="GMLS"><img src="images/gamlslogo.png" alt="GeorgiaMLS" /></a>
+    </div>
+
+    <!-- Slide-menu nav -->
+    <nav class="slide-menu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meet.html" class="active">Meet Malay</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="#" id="openContact">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <!-- Meet Malay Section -->
+  <section class="meet-section">
+    <div class="container">
+      <h1 class="meet-title">Get to Know Malay Wu</h1>
+      <p class="meet-subtitle">An agent who truly cares about you and your family</p>
+      
+      <div class="meet-columns">
+        <!-- LEFT: Image -->
+        <div class="meet-image">
+          <img src="images/malaywu.jpg" alt="Malay Wu">
+        </div>
+
+        <!-- RIGHT: Bio -->
+        <div class="meet-bio">
+          <p>
+            <b>My name is Malay Wu and I want you to trust me as your agent. As a mother to two young boys, I understand the challenges of family life and I appreciate that your time is valuable.</b>
+          </p>
+          <p>
+            I take enormous pride in representing my clients with competence, professionalism and care. The most rewarding part of my job is when I get to take part in my client's first home purchase, upgrade to a larger space or relocating them to a new location. I value that trust bestowed upon me.
+            Whatever your real estate needs may be I am willing to go that extra mile to help you and your family to make this transition as smooth as possible. It can be frustrating if you're not working with the right professional.
+            With my personal experience of relocation several times both locally and internationally, numerous real estate transactions, and up-to-date knowledge of today's market and technology, I am equipped and qualified to work with you.
+            Purchasing or selling your home is a major endeavor, let me help you navigate through this journey and together we will find success. Please give me the opportunity to learn more about you and your family.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT MODAL -->
+  <div id="contactModal" class="contact-modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    
+    <div class="modal-columns">
+      <!-- Contact Form -->
+      <div class="contact-form-section">
+        <h2>Send A Message</h2>
+        <form>
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+          
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Info, Map, Social -->
+      <div class="contact-info-section">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps?q=11175+Cicero+Drive,+Alpharetta,+GA,+USA&output=embed"
+          width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+        <div class="contact-details">
+          <p><strong></i>Chapman Hall Alpharetta</strong><br>
+            <i class="fas fa-building">&nbsp;</i>11175 Cicero Drive, Suite 100<br>
+            Alpharetta, GA 30022<br>
+            <i class="fas fa-mobile-alt">&nbsp;</i>404-213-0202<br>
+            <i class="fas fa-phone-alt">&nbsp;</i>678-242-5233 office<br>
+            </i><i class="fas fa-envelope">&nbsp;</i><a href="mailto:MalayWu@gmail.com">MalayWu@gmail.com</a><br>
+            <i class="fas fa-globe"></i>&nbsp;<a href="https://www.ChapmanHallAlpharetta.com" target="_blank">ChapmanHallAlpharetta.com</a>
+          </p>
+        </div>
+
+        <div class="logos">
+          <a href="https://www.instagram.com/malaywuatl/" target="_blank" title="instagram"><img src="images/instagram.png" alt="instagram"></a>
+          <a href="https://www.zillow.com/profile/Malaywu" target="_blank" title="Zillow"><img src="images/zillow-small.png" alt="Zillow"></a>
+          <a href="https://www.georgiamls.com/real-estate-agents/SURIVONGMALA" target="_blank" title="GMLS"><img src="images/gamlslogo.png" alt="GeorgiaMLS" /></a>
+          <img src="/images/fmlslogo.png" alt="FMLS">
+          <img src="/images/ehologo.png" alt="Fair Housing">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container footer-content">
+      <p>Copyright &copy; 2025 MALAY WU. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

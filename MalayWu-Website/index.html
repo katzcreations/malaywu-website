@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malay Wu | Real Estate in Georgia</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+  <header class="transparent-header">
+    <div class="container nav-wrapper">
+    <!-- <img src="" alt="Malay Wu Logo" class="logo" /> -->
+
+    <!-- Nav toggle (for mobile) -->
+    <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+      <span></span><span></span><span></span>
+    </div>
+
+    <!-- Quick links (phone, email, social) -->
+    <div class="header-quick-links">
+      <a href="tel:4042130202" title="Call Malay"><i class="fas fa-phone"></i></a>
+      <a href="mailto:MalayWu@gmail.com" title="Email Malay"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.instagram.com/malaywu" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.georgiamls.com/real-estate-agents/SURIVONGMALA" target="_blank" title="GMLS"><img src="images/gamlslogo.png" alt="GeorgiaMLS" /></a>
+    </div>
+
+    <!-- Slide-menu nav -->
+    <nav class="slide-menu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="meet.html">Meet Malay</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="#" id="openContact" class="nav-contact-link">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <!-- FULLSCREEN HERO -->
+  <section class="fullscreen-hero">
+  <div class="hero-overlay">
+    <div class="hero-inner">
+      <img src="images/chrwhiteblack.jpg" alt="Malay Wu Logo" width="320" height="220" />
+      <h1>Serving Metro Atlanta and Surrounding Counties</h1>
+      <p class="tagline-author">Cobb • Fulton • Gwinnett • Dekalb • Forsyth</p>
+      <div class="hero-buttons">
+        <a href="listings.html" class="btn-primary">View Listings</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+  <!-- CONTACT MODAL -->
+<div id="contactModal" class="contact-modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    
+    <div class="modal-columns">
+      <!-- Contact Form -->
+      <div class="contact-form-section">
+        <h2>Send A Message</h2>
+        <form>
+          <label for="name">Name*</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+          
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Info, Map, Social -->
+      <div class="contact-info-section">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps?q=11175+Cicero+Drive,+Alpharetta,+GA,+USA&output=embed"
+          width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+        <div class="contact-details">
+          <p><strong></i>Chapman Hall Alpharetta</strong><br>
+            <i class="fas fa-building">&nbsp;</i>11175 Cicero Drive, Suite 100<br>
+            Alpharetta, GA 30022<br>
+            <i class="fas fa-mobile-alt">&nbsp;</i>404-213-0202<br>
+            <i class="fas fa-phone-alt">&nbsp;</i>678-242-5233 office<br>
+            </i><i class="fas fa-envelope">&nbsp;</i><a href="mailto:MalayWu@gmail.com">MalayWu@gmail.com</a><br>
+            <i class="fas fa-globe"></i>&nbsp;<a href="https://www.ChapmanHallAlpharetta.com" target="_blank">ChapmanHallAlpharetta.com</a>
+          </p>
+        </div>
+
+        <div class="logos">
+          <a href="https://www.instagram.com/malaywuatl/" target="_blank" title="instagram"><img src="images/instagram.png" alt="instagram"></a>
+          <a href="https://www.zillow.com/profile/Malaywu" target="_blank" title="Zillow"><img src="images/zillow-small.png" alt="Zillow"></a>
+          <a href="https://www.georgiamls.com/real-estate-agents/SURIVONGMALA" target="_blank" title="GMLS"><img src="images/gamlslogo.png" alt="GeorgiaMLS" /></a>
+          <img src="/images/fmlslogo.png" alt="FMLS">
+          <img src="/images/ehologo.png" alt="Fair Housing">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container footer-content">
+      <p>Copyright &copy; 2025 MALAY WU. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

@@ -554,6 +554,17 @@ form textarea {
 
 /* FULL MOBILE SETTINGS */
 @media (max-width: 768px) {
+  .fullscreen-hero {
+    height: 100dvh;
+    /* better than 100vh on mobile */
+    background-size: contain;
+    /* show whole image */
+    background-position: center;
+    /* keep it centered */
+    background-repeat: no-repeat;
+    background-color: #000;
+    /* fill any side/top/bottom gaps */
+  }
   .nav-wrapper {
     flex-direction: column;
     align-items: flex-end;
@@ -694,4 +705,5 @@ form textarea {
   }
 
 }
+
 

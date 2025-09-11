@@ -555,7 +555,7 @@ form textarea {
 /* FULL MOBILE SETTINGS */
 @media (max-width: 768px) {
   .fullscreen-hero {
-    height: 500px;
+    height: 60dvh;
     background-size: cover; 
     background-position: center 25%;
   }
@@ -699,6 +699,7 @@ form textarea {
   }
 
 }
+
 
 
 

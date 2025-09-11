@@ -556,14 +556,8 @@ form textarea {
 @media (max-width: 768px) {
   .fullscreen-hero {
     height: 100dvh;
-    /* better than 100vh on mobile */
-    background-size: contain;
-    /* show whole image */
-    background-position: center;
-    /* keep it centered */
-    background-repeat: no-repeat;
-    background-color: #000;
-    /* fill any side/top/bottom gaps */
+    background-size: cover; 
+    background-position: center 25%;
   }
   .nav-wrapper {
     flex-direction: column;
@@ -705,5 +699,6 @@ form textarea {
   }
 
 }
+
 
 
